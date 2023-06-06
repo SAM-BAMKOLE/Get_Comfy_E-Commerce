@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Raleway", sans-serif;
+    }
+}
+
+@layer utilities {
+    .pointed:before {
+        content: "";
+        position: absolute;
+        bottom: 90%;
+        left: 88%;
+        width: 20px;
+        height: 20px;
+        background: red;
+    }
+}
