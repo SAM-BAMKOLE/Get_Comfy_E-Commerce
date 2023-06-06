@@ -83,12 +83,12 @@ class UI {
         data.forEach((item) => {
             content += `<div>
                     <div
-                        class="w-full max-h-[200px] rounded-sm overflow-hidden relative group" data-aos="fade-in"
+                        class="w-full h-[160px] rounded-sm overflow-hidden relative group""
                     >
                         <img
                             src=${item.image}
                             alt="image of the product"
-                            class="object-fit h-full"
+                            class="object-fit w-full h-full"
                         />
                         <div
                             class="flex space-x-4 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out"
